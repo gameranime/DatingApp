@@ -18,7 +18,6 @@ namespace DatingApp.API.Controllers
         public ValuesController(DataContext context)
         {
             this.context = context;
-
         }
         // GET api/values
         [HttpGet]
